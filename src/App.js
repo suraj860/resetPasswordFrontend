@@ -14,7 +14,7 @@ function App() {
           <Switch>
             <Route exact path ="/" component={Login}/>
             <Route path ="/forget_pass" component={Forget}/>
-            <Route path ="/reset/:id" component={Newpassword}/>
+            <Route exact path ="/reset/:id" component={Newpassword}/>
             <Route path ="/register" component={RegisterForm}/>
           </Switch>
         </BrowserRouter>
